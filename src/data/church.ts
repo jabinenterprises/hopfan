@@ -242,9 +242,10 @@ const img4 = "/images/hero-img4.jpeg";
 export const heroSlides = [
   {
     image: "/images/hero-img1.jpeg",
-    eyebrow: "lorem ipsum dolor sit amet",
-    title: "lorem ipsum",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    eyebrow: "House of Prayer for All Nations",
+    title: "THE LORD IS HERE",
+    description:
+      "A place of prayer, worship, faith, fellowship and transformation.",
     duration: 6000,
   },
   {
