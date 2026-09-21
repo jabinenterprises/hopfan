@@ -8,7 +8,7 @@ export default function Events() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: "url(/images/children-ministry3.jpeg)",
+            backgroundImage: "url(/images/children-ministry.jpeg)",
           }}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

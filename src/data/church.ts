@@ -51,7 +51,7 @@ export const ministries = [
     name: "Prayer & Worship",
     description:
       "The heartbeat of our church. We are a house built on prayer, offering regular prayer gatherings, intercession, and worship experiences that draw us closer to God.",
-    image: "images/prayer-worship.jpeg",
+    image: "/images/prayer-worship.jpeg",
     audience: "All",
     meetingInfo: "Every Sunday and throughout the week",
     icon: "🙏",
@@ -246,9 +246,7 @@ export const history = [
   },
 ];
 
-const img1 = "/images/WhatsApp Image 2026-09-14 at 22.00.55 (2).jpeg";
 const img2 = "/images/hero-img2.jpeg";
-const img3 = "/images/WhatsApp Image 2026-09-14 at 22.00.54 (1).jpeg";
 const img4 = "/images/hero-img4.jpeg";
 
 export const heroSlides = [

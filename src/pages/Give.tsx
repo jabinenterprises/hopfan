@@ -15,7 +15,7 @@ export default function Give() {
       <div className="relative bg-[#111111] pt-32 pb-20">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{ backgroundImage: "url(/images/kids.jpeg)" }}
+          style={{ backgroundImage: "url(/images/community-care.jpg)" }}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-[#A82626] text-xs font-sans uppercase tracking-[0.25em] mb-4">
