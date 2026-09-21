@@ -14,7 +14,7 @@ const connect = [
   { label: "Prayer Request", to: "/prayer" },
   { label: "Give", to: "/give" },
   { label: "Contact", to: "/contact" },
-  { label: "Plan a Visit", to: "/plan-visit" },
+  { label: "Plan a Visit", to: "" },
 ];
 
 export default function Footer() {

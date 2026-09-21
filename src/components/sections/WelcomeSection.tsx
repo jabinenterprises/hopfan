@@ -43,7 +43,7 @@ export default function WelcomeSection() {
             <div className="w-12 h-0.5 bg-[#A82626] mb-8" />
             <div className="space-y-4 text-[#6B7280] font-sans text-base leading-relaxed">
               <p>
-                House of Prayer for All Nations — HOFPAN — was born on 3rd April
+                House of Prayer for All Nations - HOFPAN - was born on 3rd April
                 2005, in a classroom in Mtwapa, Mombasa. From those humble
                 beginnings, God has built a community of faith, prayer, and
                 outreach that continues to grow.
@@ -58,7 +58,7 @@ export default function WelcomeSection() {
               </p>
               <p>
                 Whether you are seeking God for the first time, returning to
-                faith, or looking for a community to grow with — there is a
+                faith, or looking for a community to grow with - there is a
                 place for you here.
               </p>
             </div>
@@ -70,7 +70,7 @@ export default function WelcomeSection() {
                 Discover Our Story
               </Link>
               <Link
-                to="/plan-visit"
+                to=""
                 className="inline-flex items-center px-7 py-3.5 bg-transparent text-[#111111] text-xs font-sans font-medium uppercase tracking-widest rounded border border-[#111111]/20 hover:border-[#111111] transition-colors"
               >
                 Plan a Visit

@@ -10,7 +10,7 @@ export const church = {
     email: "kkarisa810@gmail.com",
     phone: "+254 729 870 123",
   },
-  address: "[CHURCH ADDRESS TO BE CONFIRMED]",
+  address: "Mtwapa, Mombasa",
   serviceTimes: "[SUNDAY SERVICE TIME TO BE CONFIRMED]",
   giving: {
     accountName:
@@ -38,7 +38,7 @@ export const leadership = [
     id: "apostle-stephen",
     name: "Apostle Stephen Karisa Iha",
     title: "Senior Pastor & Founder",
-    bio: "Apostle Stephen Karisa Iha founded the House of Prayer for All Nations on 3rd April 2005 in Mtwapa, Mombasa — beginning in a classroom, trusting God for growth. He is married to Bahati Mataza, and together they are blessed with three sons and two daughters. His ministry is anchored in the mission: All Flesh to See the Salvation of the Lord.",
+    bio: "Apostle Stephen Karisa Iha founded the House of Prayer for All Nations on 3rd April 2005 in Mtwapa, Mombasa - beginning in a classroom, trusting God for growth. He is married to Bahati Mataza, and together they are blessed with three sons and two daughters. His ministry is anchored in the mission: All Flesh to See the Salvation of the Lord.",
     photo: "/images/apostle.jpeg",
     ministryFocus: "Prayer, Evangelism, Community Impact",
     contact: { email: "kkarisa810@gmail.com", phone: "+254 729 870 123" },
@@ -60,7 +60,7 @@ export const ministries = [
     id: "children",
     name: "Children",
     description:
-      "Sunday School and our community kindergarten bring faith and education together. Every child matters — we create safe, joyful spaces for children to grow in faith and knowledge.",
+      "Sunday School and our community kindergarten bring faith and education together. Every child matters - we create safe, joyful spaces for children to grow in faith and knowledge.",
     image: "/images/children-ministry.jpeg",
     audience: "Children",
     meetingInfo: "Sunday School every Sunday",
@@ -73,7 +73,7 @@ export const ministries = [
       "A vibrant community for young people to encounter God, build lasting friendships, grow in faith, and discover their purpose in God's kingdom.",
     image: "/images/youth.jpeg",
     audience: "Youth & Young Adults",
-    meetingInfo: "[YOUTH MEETING TIMES TO BE CONFIRMED]",
+    meetingInfo: "",
     icon: "🔥",
   },
   {
@@ -83,7 +83,7 @@ export const ministries = [
       "A powerful fellowship of women who pray together, encourage one another, and grow in faith and community. Meeting every first week of the month.",
     image: "/images/women-fellowship.jpeg",
     audience: "Women",
-    meetingInfo: "First week of every month",
+    meetingInfo: "",
     icon: "🌸",
   },
   {
@@ -93,7 +93,7 @@ export const ministries = [
       "Every Sunday we run a feeding program, and year-round we provide support for orphans and vulnerable children. Serving the community is central to who we are.",
     image: "/images/community-care.jpg",
     audience: "Community",
-    meetingInfo: "Feeding program every Sunday",
+    meetingInfo: "Feeding program on Sunday",
     icon: "❤️",
   },
   {
@@ -103,58 +103,70 @@ export const ministries = [
       'Rallies, evangelistic crusades, and our "Jesus in the Village" initiative bring the gospel to communities near and far. All flesh shall see the salvation of God.',
     image: "/images/outreach.jpg",
     audience: "Community & Villages",
-    meetingInfo:
-      'Regular outreach. "Jesus in the Village" crusades throughout the year.',
+    meetingInfo: "",
     icon: "🌍",
   },
 ];
 
 export const sermons = [
-  {
-    id: "1",
-    title: "The Voice Crying in the Wilderness",
-    speaker: "Apostle Stephen Karisa Iha",
-    date: "2024-12-01",
-    series: "Prepare the Way",
-    scripture: "Luke 3:4–6",
-    thumbnail:
-      "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=600&h=340&fit=crop&auto=format",
-    videoUrl: "[SERMON VIDEO URL TO BE CONFIRMED]",
-    audioUrl: null,
-    description:
-      "A powerful message on preparing the way for the Lord — leveling every valley, straightening every crooked path, so that all flesh may see the salvation of God.",
-    duration: "[DURATION]",
-  },
-  {
-    id: "2",
-    title: "A House of Prayer for All Nations",
-    speaker: "Apostle Stephen Karisa Iha",
-    date: "2024-11-24",
-    series: "Our Identity",
-    scripture: "Isaiah 56:7",
-    thumbnail:
-      "https://images.unsplash.com/photo-1438032005730-c779502df39b?w=600&h=340&fit=crop&auto=format",
-    videoUrl: "[SERMON VIDEO URL TO BE CONFIRMED]",
-    audioUrl: null,
-    description:
-      "Understanding our identity as a house of prayer established for all nations — a place where every person can encounter the living God.",
-    duration: "[DURATION]",
-  },
-  {
-    id: "3",
-    title: "The Lord Is Here",
-    speaker: "Apostle Stephen Karisa Iha",
-    date: "2024-11-17",
-    series: "Our Identity",
-    scripture: "Ezekiel 48:35",
-    thumbnail:
-      "https://images.unsplash.com/photo-1507692049790-de58290a4334?w=600&h=340&fit=crop&auto=format",
-    videoUrl: "[SERMON VIDEO URL TO BE CONFIRMED]",
-    audioUrl: null,
-    description:
-      "The promise that changed everything — Jehovah Shammah, the Lord is there. A message on the abiding presence of God in our midst.",
-    duration: "[DURATION]",
-  },
+  // {
+  //   id: null,
+  //   title: "",
+  //   speaker: "",
+  //   date: "_ _/ _ _ / _ _ _ _",
+  //   series: "",
+  //   scripture: "",
+  //   thumbnail: "",
+  //   videoUrl: "",
+  //   audioUrl: null,
+  //   description: "",
+  //   duration: "",
+  // },
+  // {
+  //   id: "1",
+  //   title: "The Voice Crying in the Wilderness",
+  //   speaker: "Apostle Stephen Karisa Iha",
+  //   date: "2024-12-01",
+  //   series: "Prepare the Way",
+  //   scripture: "Luke 3:4–6",
+  //   thumbnail:
+  //     "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=600&h=340&fit=crop&auto=format",
+  //   videoUrl: "[SERMON VIDEO URL TO BE CONFIRMED]",
+  //   audioUrl: null,
+  //   description:
+  //     "A powerful message on preparing the way for the Lord - leveling every valley, straightening every crooked path, so that all flesh may see the salvation of God.",
+  //   duration: "[DURATION]",
+  // },
+  // {
+  //   id: "2",
+  //   title: "A House of Prayer for All Nations",
+  //   speaker: "Apostle Stephen Karisa Iha",
+  //   date: "2024-11-24",
+  //   series: "Our Identity",
+  //   scripture: "Isaiah 56:7",
+  //   thumbnail:
+  //     "https://images.unsplash.com/photo-1438032005730-c779502df39b?w=600&h=340&fit=crop&auto=format",
+  //   videoUrl: "[SERMON VIDEO URL TO BE CONFIRMED]",
+  //   audioUrl: null,
+  //   description:
+  //     "Understanding our identity as a house of prayer established for all nations - a place where every person can encounter the living God.",
+  //   duration: "[DURATION]",
+  // },
+  // {
+  //   id: "3",
+  //   title: "The Lord Is Here",
+  //   speaker: "Apostle Stephen Karisa Iha",
+  //   date: "2024-11-17",
+  //   series: "Our Identity",
+  //   scripture: "Ezekiel 48:35",
+  //   thumbnail:
+  //     "https://images.unsplash.com/photo-1507692049790-de58290a4334?w=600&h=340&fit=crop&auto=format",
+  //   videoUrl: "[SERMON VIDEO URL TO BE CONFIRMED]",
+  //   audioUrl: null,
+  //   description:
+  //     "The promise that changed everything - Jehovah Shammah, the Lord is there. A message on the abiding presence of God in our midst.",
+  //   duration: "[DURATION]",
+  // },
 ];
 
 export const events = [
@@ -175,14 +187,14 @@ export const events = [
   // {
   //   id: "2",
   //   title: "Women's Fellowship",
-  //   date: "[FIRST WEEK OF MONTH — DATE TO BE CONFIRMED]",
+  //   date: "[FIRST WEEK OF MONTH - DATE TO BE CONFIRMED]",
   //   startTime: "[TIME]",
   //   endTime: "[TIME]",
   //   location: church.address,
   //   image:
   //     "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?w=600&h=340&fit=crop&auto=format",
   //   description:
-  //     "Women's fellowship — a time of prayer, encouragement, and growing together in faith. All women are welcome.",
+  //     "Women's fellowship - a time of prayer, encouragement, and growing together in faith. All women are welcome.",
   //   registrationUrl: null,
   //   speaker: null,
   //   category: "Women",
@@ -197,7 +209,7 @@ export const events = [
   //   image:
   //     "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=600&h=340&fit=crop&auto=format",
   //   description:
-  //     "Our evangelistic village crusade — bringing the good news of Jesus Christ to communities in the region. All flesh shall see the salvation of God.",
+  //     "Our evangelistic village crusade - bringing the good news of Jesus Christ to communities in the region. All flesh shall see the salvation of God.",
   //   registrationUrl: null,
   //   speaker: "Apostle Stephen Karisa Iha",
   //   category: "Outreach",
@@ -218,7 +230,7 @@ export const history = [
     year: "2005",
     title: "The Beginning",
     description:
-      "The church started on 3rd April 2005 in a classroom in Mtwapa, Mombasa — a small beginning with a great vision.",
+      "The church started on 3rd April 2005 in a classroom in Mtwapa, Mombasa - a small beginning with a great vision.",
   },
   {
     year: "2007",
@@ -230,7 +242,7 @@ export const history = [
     year: "Today",
     title: "Growing in Mission",
     description:
-      "Today, HOFPAN continues to fulfil the mission: All Flesh to See the Salvation of the Lord — through prayer, worship, community care, and outreach.",
+      "Today, HOFPAN continues to fulfil the mission: All Flesh to See the Salvation of the Lord - through prayer, worship, community care, and outreach.",
   },
 ];
 
@@ -260,7 +272,7 @@ export const heroSlides = [
     eyebrow: "Community & Outreach",
     title: "SERVING ALL NATIONS",
     description:
-      "From Mtwapa to the villages — we bring the gospel with love and action.",
+      "From Mtwapa to the villages - we bring the gospel with love and action.",
     duration: 6000,
   },
   {

@@ -93,7 +93,7 @@ export default function HeroCarousel() {
 
           <div className="flex flex-wrap gap-4">
             <Link
-              to="/plan-visit"
+              to=""
               className="inline-flex items-center px-8 py-4 bg-[#A82626] text-white text-sm font-sans font-medium uppercase tracking-widest rounded hover:bg-[#8a1f1f] transition-colors duration-200"
             >
               Plan a Visit

@@ -10,7 +10,7 @@ export default function MinistriesSection() {
           <SectionHeading
             eyebrow="Community Impact"
             title="Our Ministries"
-            subtitle="Serving every generation — children, youth, women, and the community at large."
+            subtitle="Serving every generation - children, youth, women, and the community at large."
           />
           <Link
             to="/ministries"

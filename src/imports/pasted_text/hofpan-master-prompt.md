@@ -1,4 +1,4 @@
-# HOFPAN — MASTER PROMPT FOR FIGMA MAKE
+# HOFPAN - MASTER PROMPT FOR FIGMA MAKE
 
 ## PROJECT
 
@@ -9,6 +9,7 @@ Build a polished, production-quality church website in React for:
 **HOFPAN**
 
 You have been provided with:
+
 1. The HOFPAN Website PRD.
 2. The official HOFPAN church logo.
 3. Official church content included in the PRD.
@@ -59,6 +60,7 @@ Do not start by generating generic placeholder church copy where official conten
 Use the uploaded official HOFPAN logo as the visual source of truth.
 
 Do not:
+
 - Distort the logo.
 - Stretch the logo.
 - Redraw the logo.
@@ -72,10 +74,10 @@ Primary brand color:
 
 Supporting palette:
 
-- #A82626 — primary church red
+- #A82626 - primary church red
 - Deep burgundy/red
-- #FFFFFF — white
-- #111111 — black/charcoal
+- #FFFFFF - white
+- #111111 - black/charcoal
 - Soft off-white
 - Neutral grays
 
@@ -266,7 +268,7 @@ Create visual rhythm by alternating:
 
 ---
 
-# 9. HERO SECTION — HIGH PRIORITY
+# 9. HERO SECTION - HIGH PRIORITY
 
 The hero must be visually impressive.
 
@@ -383,11 +385,11 @@ Use the supplied history as real content.
 
 Create a visual timeline:
 
-### 2005 — THE BEGINNING
+### 2005 - THE BEGINNING
 
 The church started on 3rd April 2005 in a classroom in Mtwapa, Mombasa.
 
-### 2007 — A BIGGER PLACE
+### 2007 - A BIGGER PLACE
 
 In 2007, the church moved from the classroom to a bigger place.
 
@@ -417,18 +419,23 @@ Present these as an engaging visual experience.
 Possible presentation groups:
 
 ### CHILDREN
+
 Sunday School and kindergarten/community support.
 
 ### YOUTH
+
 Youth ministry.
 
 ### WOMEN
+
 Women's fellowship.
 
 ### COMMUNITY CARE
+
 Sunday feeding program and support for orphans and vulnerable children.
 
 ### OUTREACH
+
 Rallies, evangelism and "Jesus in the Village."
 
 These are presentation groupings only. Do not claim they are official department names unless separately confirmed.
@@ -834,6 +841,7 @@ const church = {
   contact: {
     pastorName: "Apostle Stephen Karisa Iha",
     email: "kkarisa810@gmail.com",
-    phone: "+254 729 870 123"
-  }
+    phone: "+254 729 870 123",
+  },
 };
+```

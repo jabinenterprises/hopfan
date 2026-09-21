@@ -50,7 +50,7 @@ export default function Header() {
             <Link
               to="/"
               className="flex items-center gap-3 flex-shrink-0"
-              aria-label="HOFPAN — Home"
+              aria-label="HOFPAN - Home"
             >
               <div className="w-12 h-12 bg-[#A82626] rounded flex items-center justify-center flex-shrink-0">
                 <img
@@ -96,7 +96,7 @@ export default function Header() {
             {/* CTA + Hamburger */}
             <div className="flex items-center gap-3">
               <Link
-                to="/plan-visit"
+                to=""
                 className="hidden sm:inline-flex items-center px-5 py-2.5 bg-[#A82626] text-white text-xs font-medium font-sans uppercase tracking-widest rounded hover:bg-[#8a1f1f] transition-colors duration-200"
               >
                 Plan a Visit

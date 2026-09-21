@@ -8,14 +8,21 @@ interface MobileMenuProps {
   isActive: (to: string) => boolean;
 }
 
-export default function MobileMenu({ open, onClose, navLinks, isActive }: MobileMenuProps) {
+export default function MobileMenu({
+  open,
+  onClose,
+  navLinks,
+  isActive,
+}: MobileMenuProps) {
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
     }
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [open]);
 
   return (
@@ -43,7 +50,9 @@ export default function MobileMenu({ open, onClose, navLinks, isActive }: Mobile
             </div>
             <div className="text-white">
               <div className="font-serif font-semibold text-sm">HOFPAN</div>
-              <div className="font-sans text-xs tracking-widest uppercase opacity-60">The Lord Is Here</div>
+              <div className="font-sans text-xs tracking-widest uppercase opacity-60">
+                The Lord Is Here
+              </div>
             </div>
           </div>
           <button
@@ -51,21 +60,33 @@ export default function MobileMenu({ open, onClose, navLinks, isActive }: Mobile
             className="text-white/60 hover:text-white transition-colors p-1"
             aria-label="Close menu"
           >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+            >
               <path d="M4 4l12 12M16 4L4 16" />
             </svg>
           </button>
         </div>
 
         {/* Nav Links */}
-        <nav className="flex-1 overflow-y-auto px-6 py-6" aria-label="Mobile navigation">
+        <nav
+          className="flex-1 overflow-y-auto px-6 py-6"
+          aria-label="Mobile navigation"
+        >
           <ul className="space-y-1">
             {navLinks.map((link) => (
               <li key={link.to}>
                 <Link
                   to={link.to}
                   className={`block py-3 font-sans text-sm uppercase tracking-widest border-b border-white/5 transition-colors ${
-                    isActive(link.to) ? "text-[#A82626]" : "text-white/80 hover:text-white"
+                    isActive(link.to)
+                      ? "text-[#A82626]"
+                      : "text-white/80 hover:text-white"
                   }`}
                 >
                   {link.label}
@@ -76,7 +97,7 @@ export default function MobileMenu({ open, onClose, navLinks, isActive }: Mobile
 
           <div className="mt-8 pt-6 border-t border-white/10 space-y-3">
             <Link
-              to="/plan-visit"
+              to=""
               className="block w-full text-center px-6 py-3.5 bg-[#A82626] text-white text-xs font-medium font-sans uppercase tracking-widest rounded hover:bg-[#8a1f1f] transition-colors"
             >
               Plan a Visit
@@ -92,14 +113,24 @@ export default function MobileMenu({ open, onClose, navLinks, isActive }: Mobile
 
         {/* Contact Info */}
         <div className="px-6 py-6 border-t border-white/10">
-          <p className="text-white/40 text-xs uppercase tracking-widest mb-3 font-sans">Contact</p>
-          <a href="tel:+254729870123" className="block text-white/70 text-sm font-sans hover:text-white transition-colors mb-1">
+          <p className="text-white/40 text-xs uppercase tracking-widest mb-3 font-sans">
+            Contact
+          </p>
+          <a
+            href="tel:+254729870123"
+            className="block text-white/70 text-sm font-sans hover:text-white transition-colors mb-1"
+          >
             +254 729 870 123
           </a>
-          <a href="mailto:kkarisa810@gmail.com" className="block text-white/70 text-sm font-sans hover:text-white transition-colors">
+          <a
+            href="mailto:kkarisa810@gmail.com"
+            className="block text-white/70 text-sm font-sans hover:text-white transition-colors"
+          >
             kkarisa810@gmail.com
           </a>
-          <p className="text-white/40 text-xs font-sans mt-3">Mtwapa, Mombasa, Kenya</p>
+          <p className="text-white/40 text-xs font-sans mt-3">
+            Mtwapa, Mombasa, Kenya
+          </p>
         </div>
       </div>
     </div>
