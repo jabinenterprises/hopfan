@@ -151,7 +151,7 @@ export default function Give() {
             <MethodCard
               icon={<BankIcon />}
               title="Bank Transfer"
-              note="Please verify account details with church leadership before making a transfer."
+              note="Need be, please verify account details with church leadership before making a transfer."
             >
               <CopyRow
                 label="Account Name"
@@ -205,30 +205,30 @@ export default function Give() {
                 buttonLabel="Copy Name"
                 successLabel="Name copied!"
               />
-              <div className="bg-[#F8F6F3] rounded-lg p-5">
+              {/* <div className="bg-[#F8F6F3] rounded-lg p-5">
                 <p className="text-[#6B7280] text-sm font-sans leading-relaxed">
                   Use the recipient name above when sending a Western Union transfer. Additional transfer details will be confirmed by church leadership.
                 </p>
-              </div>
+              </div> */}
             </MethodCard>
 
           </div>
 
           {/* Online giving placeholder */}
-          <div className="mt-8 bg-[#A82626] rounded-xl p-8 text-center">
+          {/* <div className="mt-8 bg-[#A82626] rounded-xl p-8 text-center">
             <h3 className="font-serif text-2xl font-bold text-white mb-3">Secure Online Giving</h3>
             <p className="text-white/80 font-sans text-base mb-4">
               An integrated online giving link will be added once confirmed by church leadership.
             </p>
             <p className="text-white/40 text-xs font-sans">[ONLINE GIVING URL TO BE CONFIRMED]</p>
-          </div>
+          </div> */}
 
           {/* Verification notice */}
-          <div className="mt-8 bg-white border border-gray-100 rounded-xl p-6">
+          {/* <div className="mt-8 bg-white border border-gray-100 rounded-xl p-6">
             <p className="text-[#6B7280] text-xs font-sans leading-relaxed">
               ⚠️ <strong className="text-[#111111]">Please verify:</strong> All giving account details are subject to final confirmation by church leadership before the public launch of this website. If in doubt, contact the church directly before making any transfer.
             </p>
-          </div>
+          </div> */}
 
         </div>
       </section>
