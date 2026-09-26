@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { Link } from "react-router";
 
+const lgImg = "/images/hopfan-logo.jpeg";
+
 interface MobileMenuProps {
   open: boolean;
   onClose: () => void;
@@ -38,15 +40,14 @@ export default function MobileMenu({
 
       {/* Drawer */}
       <div
-        className={`absolute right-0 top-0 bottom-0 w-full max-w-sm bg-[#111111] flex flex-col transition-transform duration-300 ${
-          open ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`absolute right-0 top-0 bottom-0 w-full max-w-sm bg-[#111111] flex flex-col transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         {/* Top */}
         <div className="flex items-center justify-between px-6 pt-6 pb-4 border-b border-white/10">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-[#A82626] rounded flex items-center justify-center">
-              <span className="text-white font-serif font-bold text-xs">H</span>
+            <div className="w-12 h-12 rounded flex items-center justify-center">
+              <img src={lgImg} alt="HOFPAN Logo" className="w-full h-full object-cover rounded" />
             </div>
             <div className="text-white">
               <div className="font-serif font-semibold text-sm">HOFPAN</div>
@@ -83,11 +84,10 @@ export default function MobileMenu({
               <li key={link.to}>
                 <Link
                   to={link.to}
-                  className={`block py-3 font-sans text-sm uppercase tracking-widest border-b border-white/5 transition-colors ${
-                    isActive(link.to)
-                      ? "text-[#A82626]"
-                      : "text-white/80 hover:text-white"
-                  }`}
+                  className={`block py-3 font-sans text-sm uppercase tracking-widest border-b border-white/5 transition-colors ${isActive(link.to)
+                    ? "text-[#A82626]"
+                    : "text-white/80 hover:text-white"
+                    }`}
                 >
                   {link.label}
                 </Link>
