@@ -166,12 +166,12 @@ export default function Give() {
                 successLabel="Copied!"
                 mono
               />
-              <div className="bg-[#F8F6F3] rounded-lg p-5">
+              {/* <div className="bg-[#F8F6F3] rounded-lg p-5">
                 <p className="text-[#6B7280] text-xs font-sans uppercase tracking-widest mb-2">Other Methods</p>
                 <p className="text-[#6B7280] text-sm font-sans">
                   [Mobile money and additional payment methods to be confirmed]
                 </p>
-              </div>
+              </div> */}
             </MethodCard>
 
             {/* 2 — PayPal */}
