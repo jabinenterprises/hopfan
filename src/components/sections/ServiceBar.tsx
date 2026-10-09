@@ -15,8 +15,13 @@ const items = [
         <path d="M10 6v4l2.5 2.5" />
       </svg>
     ),
+<<<<<<< HEAD
     label: "Sunday Worship",
     value: "9:00 AM - 12:00 PM",
+=======
+    label: "Sunday Services",
+    value: "9:00 AM – 3:00 PM",
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
     to: "/plan-visit",
   },
   {

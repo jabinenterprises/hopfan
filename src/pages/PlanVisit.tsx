@@ -1,6 +1,8 @@
 import { Link } from "react-router";
+import WeeklySchedule from "../components/sections/WeeklySchedule";
 
 const faqs = [
+<<<<<<< HEAD
   {
     q: "Where are you located?",
     a: "We are based in Mtwapa, Mombasa. The full address will be confirmed and updated here shortly.",
@@ -21,6 +23,13 @@ const faqs = [
     q: "Is there children's ministry?",
     a: "Yes! We run Sunday School for children. Your children will be well cared for and will learn about faith in an age-appropriate environment.",
   },
+=======
+  { q: "Where are you located?", a: "We are based in Mtwapa, Mombasa. The full address will be confirmed and updated here shortly." },
+  { q: "When are services?", a: "Weekday services meet Tuesday and Wednesday from 5:30 PM to 7:30 PM, with a Friday Deliverance Service from 5:30 PM to 7:00 PM. Saturday is for Youth Fellowship and Praise Practices. On Sunday, services run from 9:00 AM to 3:00 PM." },
+  { q: "What should I expect?", a: "Expect a warm welcome, vibrant worship, powerful prayer, a message from the Word of God, and genuine community. All are welcome, exactly as you are." },
+  { q: "What should I wear?", a: "Come as you are. There is no dress code. We want you to feel comfortable and at home." },
+  { q: "Is there children's ministry?", a: "Yes! We run Sunday School for children. Your children will be well cared for and will learn about faith in an age-appropriate environment." },
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
   { q: "Is parking available?", a: "[Parking information to be confirmed]" },
   {
     q: "How long is a service?",
@@ -75,7 +84,7 @@ export default function PlanVisit() {
               {
                 icon: "⏰",
                 title: "Service Times",
-                body: "Sunday Worship\n[Time to be confirmed]\n\n[Other services to be confirmed]",
+                body: "Sunday Services\n9:00 AM – 3:00 PM\n\nWeekday gatherings from Tuesday",
               },
               {
                 icon: "📞",
@@ -96,6 +105,10 @@ export default function PlanVisit() {
                 </p>
               </div>
             ))}
+          </div>
+
+          <div className="mb-16">
+            <WeeklySchedule compact />
           </div>
 
           {/* What to expect */}

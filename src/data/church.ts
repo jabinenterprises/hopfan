@@ -10,8 +10,13 @@ export const church = {
     email: "kkarisa810@gmail.com",
     phone: "+254 729 870 123",
   },
+<<<<<<< HEAD
   address: "Mtwapa, Mombasa",
   serviceTimes: "[SUNDAY SERVICE TIME TO BE CONFIRMED]",
+=======
+  address: "[CHURCH ADDRESS TO BE CONFIRMED]",
+  serviceTimes: "Sunday services from 9:00 AM to 3:00 PM",
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
   giving: {
     accountName:
       "Spring Of Miracles Ministry / House Of Prayer For All Nations",
@@ -32,6 +37,38 @@ export const church = {
     },
   ],
 };
+
+export const weeklyServices = [
+  {
+    day: "Tuesday",
+    featured: false,
+    services: [{ name: "Weekday Service", time: "5:30 PM – 7:30 PM" }],
+  },
+  {
+    day: "Wednesday",
+    featured: false,
+    services: [{ name: "Weekday Service", time: "5:30 PM – 7:30 PM" }],
+  },
+  {
+    day: "Friday",
+    featured: false,
+    services: [{ name: "Deliverance Service", time: "5:30 PM – 7:00 PM" }],
+  },
+  {
+    day: "Saturday",
+    featured: false,
+    services: [{ name: "Youth Fellowship & Praise Practices", time: null }],
+  },
+  {
+    day: "Sunday",
+    featured: true,
+    services: [
+      { name: "First Service", time: "9:00 AM – 10:00 AM", language: "Swahili" },
+      { name: "Second Service", time: "10:00 AM – 1:00 PM", language: "English" },
+      { name: "Anointing & Deliverance Service", time: "1:00 PM – 3:00 PM" },
+    ],
+  },
+] as const;
 
 export const leadership = [
   {
@@ -73,7 +110,11 @@ export const ministries = [
       "A vibrant community for young people to encounter God, build lasting friendships, grow in faith, and discover their purpose in God's kingdom.",
     image: "/images/youth.jpeg",
     audience: "Youth & Young Adults",
+<<<<<<< HEAD
     meetingInfo: "",
+=======
+    meetingInfo: "Saturdays — time to be announced",
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
     icon: "🔥",
   },
   {
@@ -173,6 +214,7 @@ export const events = [
   {
     id: "1",
     title: "Sunday Worship Service",
+<<<<<<< HEAD
     date: "Sunday",
     startTime: "9.00 AM",
     endTime: "12.00 PM",
@@ -180,6 +222,14 @@ export const events = [
     image: "/images/podium.jpeg",
     description:
       "Join us every Sunday for worship, prayer, the Word of God, and community. All are welcome.",
+=======
+    date: "[DATE]",
+    startTime: "9:00 AM",
+    endTime: "3:00 PM",
+    location: church.address,
+    image: "https://images.unsplash.com/photo-1438032005730-c779502df39b?w=600&h=340&fit=crop&auto=format",
+    description: "Join us every Sunday for our Swahili, English, and Anointing & Deliverance services. All are welcome.",
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
     registrationUrl: null,
     speaker: "Apostle Stephen Karisa Iha",
     category: "Worship",

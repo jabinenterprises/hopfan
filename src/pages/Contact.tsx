@@ -84,9 +84,15 @@ export default function Contact() {
                       href: null,
                     },
                     {
+<<<<<<< HEAD
                       icon: <Clock className="w-7 h-7" />,
                       label: "Sunday Service",
                       value: "9:30 AM - 12:00 PM",
+=======
+                      icon: "⏰",
+                      label: "Sunday Services",
+                      value: "9:00 AM – 3:00 PM",
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
                       href: null,
                     },
                   ].map((item) => (

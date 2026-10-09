@@ -66,20 +66,29 @@ export default function GivingSection() {
                   </p>
                 </div>
               </div>
-              <div>
+<<<<<<< HEAD
+              {/* <div>
                 <p className="text-white/50 text-xs font-sans uppercase tracking-widest mb-2">
                   Other Methods
                 </p>
                 <p className="text-white/40 text-sm font-sans">
                   [Mobile money and additional giving methods to be confirmed]
                 </p>
+              </div> */}
+=======
+              <div>
+                <p className="text-white text-sm font-sans font-medium mb-2">M-Pesa Paybill</p>
+                <p className="text-white/50 text-xs font-sans uppercase tracking-widest mb-1">Paybill Number</p>
+                <p className="text-white/80 text-sm font-sans font-mono tracking-wider">247247</p>
+                <p className="mt-3 text-white/50 text-xs font-sans">View all giving methods and verification details on the Give page.</p>
               </div>
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
             </div>
-            <p className="text-white/30 text-xs font-sans mt-6 leading-relaxed">
+            {/* <p className="text-white/30 text-xs font-sans mt-6 leading-relaxed">
               Please verify account details on our Give page before making a
               transfer. Church leadership will confirm all giving information
               before public launch.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

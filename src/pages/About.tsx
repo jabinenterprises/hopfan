@@ -1,12 +1,21 @@
-import { history, beliefs, church } from "../data/church";
-import SectionHeading from "../components/ui/SectionHeading";
+import { history, beliefs, church } from "../data/church"
+import { historyGalleryImages } from "../data/historyGallery"
+import MasonryGallery from "../components/ui/MasonryGallery"
+import SectionHeading from "../components/ui/SectionHeading"
 
 function PageHero() {
   return (
     <div className="relative bg-[#111111] pt-32 pb-20 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"
+<<<<<<< HEAD
         style={{ backgroundImage: "url(/images/welcome-img.jpeg)" }}
+=======
+        style={{
+          backgroundImage:
+            "url(https://images.unsplash.com/photo-1438032005730-c779502df39b?w=1920&h=600&fit=crop&auto=format)",
+        }}
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
       />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-[#A82626] text-xs font-sans uppercase tracking-[0.25em] mb-4">
@@ -16,12 +25,16 @@ function PageHero() {
           About HOFPAN
         </h1>
         <p className="text-white/60 font-sans text-lg mt-4 max-w-2xl">
+<<<<<<< HEAD
           House of Prayer for All Nations - a community built on faith, prayer,
+=======
+          House of Prayer for All Nations — a community built on faith, prayer,
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
           and the mission to see all flesh know the salvation of God.
         </p>
       </div>
     </div>
-  );
+  )
 }
 
 export default function About() {
@@ -40,7 +53,11 @@ export default function About() {
               />
               <div className="space-y-4 text-[#6B7280] font-sans leading-relaxed">
                 <p>
+<<<<<<< HEAD
                   House of Prayer for All Nations - HOFPAN - is more than a
+=======
+                  House of Prayer for All Nations — HOFPAN — is more than a
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
                   church name. It is a declaration rooted in Scripture (Isaiah
                   56:7): that God's house is a place of prayer, open to all
                   peoples and all nations.
@@ -57,7 +74,11 @@ export default function About() {
                   <strong className="text-[#111111]">
                     ALL FLESH TO SEE THE SALVATION OF THE LORD
                   </strong>{" "}
+<<<<<<< HEAD
                   - echoing the cry of Luke 3:4-6 that every valley be filled,
+=======
+                  — echoing the cry of Luke 3:4–6 that every valley be filled,
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
                   every mountain brought low, so that all may see God's
                   salvation.
                 </p>
@@ -88,7 +109,11 @@ export default function About() {
           </h2>
           <div className="bg-white/10 border border-white/20 rounded-lg p-8 mt-10">
             <p className="text-[#E8A0A0] text-xs font-sans uppercase tracking-widest mb-4">
+<<<<<<< HEAD
               Luke 3:4-6
+=======
+              Luke 3:4–6
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
             </p>
             <blockquote className="font-serif text-lg sm:text-xl text-white italic leading-relaxed">
               "The voice of one crying in the wilderness, Prepare ye the way of
@@ -104,7 +129,12 @@ export default function About() {
       {/* History */}
       <section className="py-20 bg-[#F8F6F3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading eyebrow="Our Story" title="Our Journey" center />
+          <SectionHeading
+            eyebrow="OUR JOURNEY OF FAITH"
+            title="A Journey of Faith, Growth & Service"
+            subtitle="From humble beginnings in 2005 to the church community we see today, our journey reflects a continuing commitment to faith, prayer, worship, and serving others. Explore moments from the history and development of House of Prayer for All Nations — The Lord Is Here."
+            center
+          />
           <div className="max-w-2xl mx-auto">
             <div className="relative">
               <div
@@ -135,6 +165,17 @@ export default function About() {
               </div>
             </div>
           </div>
+          <div className="mt-16 border-t border-[#A82626]/15 pt-12 lg:mt-20 lg:pt-16">
+            <MasonryGallery
+              images={historyGalleryImages}
+              label="HOFPAN church history gallery"
+            />
+            <p className="mx-auto mt-6 max-w-3xl text-center font-sans text-xs leading-relaxed text-[#6B7280]">
+              These photographs preserve moments from HOFPAN&apos;s journey.
+              Individual dates and captions will be added as they are verified
+              by church leadership.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -159,8 +200,15 @@ export default function About() {
               </div>
             ))}
           </div>
+<<<<<<< HEAD
+=======
+          <p className="text-center text-[#6B7280] text-xs font-sans mt-8">
+            Statement of faith approved for initial presentation. Final wording
+            to be confirmed by church leadership before public launch.
+          </p>
+>>>>>>> 72ed69dbed4efdda179b254b6600520cb8862cd3
         </div>
       </section>
     </main>
-  );
+  )
 }
